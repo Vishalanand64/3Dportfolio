@@ -110,12 +110,12 @@ const tl = gsap.timeline({
 });
 
 tl.from(".web-dev", { 
-  x: "-110%",    
+  x: "-120%",    
   duration: 1, 
   opacity: 0,    
 })
   .from(".designer", {
-    x: "110%",   
+    x: "120%",   
     duration: 1,  
     opacity: 0,   
   }, "-=0.8");   

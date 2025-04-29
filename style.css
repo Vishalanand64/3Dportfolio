@@ -124,6 +124,7 @@ gap: 100px;
   color: rgb(156, 156, 156);
   font-family: Absans;
   font-weight: 200;
+  text-align: center;
 }
 .right-overflow{
   width: 35%;
@@ -680,16 +681,18 @@ summary span {
   font-size: 12vw;
 }
 .hero-page img{
-  width: 90vw;
-  height: 45vh;
+  width: 80vw;
+  height: 40vh;
+  
 }
 .overflow{
   width: 100%;
   height: auto;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 8vh;
+  
 }
 .left-overflow{
   width: 80%;
@@ -697,7 +700,7 @@ summary span {
  
 }
 .left-overflow p{
-  font-size: 14px;
+  font-size: 10px;
   height: auto;
   margin-top: 120px;
 }
@@ -715,18 +718,26 @@ summary span {
   font-size: 7vw;
 }
 .about-top{
-  height: 30%;
+  height: auto;
   justify-content: flex-start;
+  align-items: center;
   padding-top: 10vw ;
+  
 }
 .about-top h1{
-  font-size: 5vw;
+  font-size: 3.7vw;
   letter-spacing: 4px;
+  padding: 2vw ;
   
   
+}
+.about-bottom{
+  margin-top: 14px;
 }
 .about-bottom p {
   font-size: 3vw;
+  
+  
 }
 .skills-page{
   min-height: 40vh;
