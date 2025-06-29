@@ -271,5 +271,5 @@ gsap.utils.toArray(".project-card").forEach((card, index) => {
   });
 
 
-  
+
   
